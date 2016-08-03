@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+
+<html>
+         <head>
+        <style type="text/css">
+          body{
+             background:#87CEFA;
+            }
+          form{
+             background:#F8F8FF;
+             width:450px;
+             border:3px solid #00BFFF;
+             margin:100px auto;
+          }
+          form input {
+             width:230px;
+             height:25px;
+             padding:1px 10px;
+             margin:10px 30px;
+             color:#6d6d6d
+             text-aling:center;
+          }
+          form button{
+             width:300px;
+             margin:30 opx 20px 20px;
+             height:40px;
+          }
+        </style>
+
+      </head>
+
+    <body>
+        <form action="empresa.php" method="POST">
+              <table border="0">
+              <tr>
+               <td width="50%">Nit</td>
+               <td width="50%"><input type="int" name="nit"></td>
+              </tr>
+
+              <tr>
+               <td width="50%">Nombre</td>
+               <td width="50%"><input type="varchar(15)" name="nombre"></td>
+              </tr>
+
+              <tr>
+               <td width="50%">Direccion</td>
+               <td width="50%"><input type="varchar(30)" name="direccion"></td>
+              </tr>
+
+               <tr>
+               <td width="50%">Pais</td>
+               <td width="50%"><input type="varchar(10)" name="pais"></td>
+              </tr>
+
+              <tr>
+               <td width="50%">Ciudad</td>
+               <td width="50%"><input type="varchar(10)" name="ciudad"></td>
+              </tr>
+
+              <tr>
+               <td width="50%">Telefono</td>
+               <td width="50%"><input type="int" name="telefono"></td>
+              </tr>
+
+               <tr>
+               <td width="50%"> Email</td>
+               <td width="50%"><input type="varchar(30)" name="email"></td>
+              </tr>
+
+              <tr>
+               <td width="50%">Sitio Web</td>
+               <td width="50%"><input type="varchar(35)" name="web"></td>
+              </tr>
+            </table>
+             <input type="submit" />
+        </form>
+    </body>
+</html>
